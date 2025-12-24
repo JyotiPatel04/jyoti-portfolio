@@ -29,11 +29,11 @@ This project showcases my skills, projects, education, and professional journey 
 2. Navigate to the project directory:
    cd Jyoti-Portfolio
 
-3.Install dependencies:
-  npm install
+3. Install dependencies:
+   npm install
 
-4.Start the development server:
-  npm start
+4. Start the development server:
+   npm start
 
 📌 About Me
 
