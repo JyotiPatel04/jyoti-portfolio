@@ -25,15 +25,17 @@ This project showcases my skills, projects, education, and professional journey 
 ## 🚀 How to Run Locally
 1. Clone the repository:
    git clone https://github.com/JyotiPatel04/jyoti-portfolio.git
+
 2. Navigate to the project directory:
    cd Jyoti-Portfolio
+
 3.Install dependencies:
   npm install
+
 4.Start the development server:
   npm start
 
 📌 About Me
 
 I am a B.Tech Electronics Engineering student with a passion for frontend development, learning new technologies, and building interactive web applications.
-   ```bash
-   git clone https://github.com/JyotiPatel04/jyoti-portfolio.git
+   
