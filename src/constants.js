@@ -17,6 +17,7 @@ import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import intellijLogo from './assets/tech_logo/intellij.png';
 import figmaLogo from './assets/tech_logo/figma.png';
+import dockerLogo from './assets/tech_logo/docker.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 
@@ -77,6 +78,7 @@ export const SkillsInfo = [
       {name : 'Intellij', logo: intellijLogo},
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Figma', logo: figmaLogo },
+      {name: 'Docker' , logo: dockerLogo}
     ],
   },
 ];
