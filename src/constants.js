@@ -34,6 +34,7 @@ import upboardLogo from './assets/education_logo/upboard_logo.png';
 
 
 // Project Section Logo's
+import GYMLogo from './assets/work_logo/gym.png';
 import NGOLogo from './assets/work_logo/ngo.png';
 import passwordgeneratorLogo from './assets/work_logo/pass_gen.png';
 import simonsaysgameLogo from './assets/work_logo/ss_game.png';
@@ -106,7 +107,11 @@ export const SkillsInfo = [
         "React JS",
         "Tailwind CSS",
         "Bootstrap",
-       ],
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+      ],
+       
     },
    ];
   
@@ -147,13 +152,13 @@ export const SkillsInfo = [
   export const projects = [
       {
       id: 0,
-      title: "Rural Informative & Social Harmony Academy (RISHA)",
+      title: "GYM-MERN-Project",
       description:
-      "A web application for the Rural Informative & Social Harmony Academy (RISHA), designed to provide educational resources and support for rural communities. The app features a responsive design, interactive elements, and a user-friendly interface to enhance accessibility and engagement.",
-      image: NGOLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/JyotiPatel04/NGO",
-      webapp: "https://rishango.org",
+      "A web application for a gym management system designed to provide an efficient and user-friendly platform for managing gym members, workouts, and schedules. The app features a responsive design, interactive elements, and a user-friendly interface to enhance accessibility and engagement.",
+      image: GYMLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Node.js", "Express.js"],
+      github: "https://github.com/JyotiPatel04/GYM-MERN-PROJECT",
+      webapp: "https://gym-mern-project-fkip.vercel.app",
     },
     {
       id: 1,
@@ -161,7 +166,7 @@ export const SkillsInfo = [
       description:
       "A web application for the Rural Informative & Social Harmony Academy (RISHA), designed to provide educational resources and support for rural communities. The app features a responsive design, interactive elements, and a user-friendly interface to enhance accessibility and engagement.",
       image: NGOLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
+      tags: ["HTML", "CSS", "JavaScript",],
       github: "https://github.com/JyotiPatel04/NGO",
       webapp: "https://rishango.org",
     },
