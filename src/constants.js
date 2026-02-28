@@ -10,6 +10,8 @@ import springLogo from './assets/tech_logo/spring.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
+import nodeLogo from './assets/tech_logo/node.png';
+import expressLogo from './assets/tech_logo/express.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
@@ -19,6 +21,7 @@ import intellijLogo from './assets/tech_logo/intellij.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import dockerLogo from './assets/tech_logo/docker.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
+import postmanLogo from './assets/tech_logo/postman.png';
 
 
 // Experience Section Logo's
@@ -31,6 +34,7 @@ import upboardLogo from './assets/education_logo/upboard_logo.png';
 
 
 // Project Section Logo's
+import NGOLogo from './assets/work_logo/ngo.png';
 import passwordgeneratorLogo from './assets/work_logo/pass_gen.png';
 import simonsaysgameLogo from './assets/work_logo/ss_game.png';
 import weatherappLogo from './assets/work_logo/wea_app.png';
@@ -56,6 +60,8 @@ export const SkillsInfo = [
       {name: 'Spring',logo: springLogo},
       { name: 'Springboot', logo: springbootLogo },
       { name: 'MySQL', logo: mysqlLogo },
+      { name: 'Node.js', logo: nodeLogo },
+      { name: 'Express.js', logo: expressLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       
     ],
@@ -78,7 +84,9 @@ export const SkillsInfo = [
       {name : 'Intellij', logo: intellijLogo},
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Figma', logo: figmaLogo },
-      {name: 'Docker' , logo: dockerLogo}
+      {name: 'Docker' , logo: dockerLogo},
+      { name: 'Postman', logo: postmanLogo }
+      
     ],
   },
 ];
@@ -137,8 +145,28 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    {
+      {
       id: 0,
+      title: "Rural Informative & Social Harmony Academy (RISHA)",
+      description:
+      "A web application for the Rural Informative & Social Harmony Academy (RISHA), designed to provide educational resources and support for rural communities. The app features a responsive design, interactive elements, and a user-friendly interface to enhance accessibility and engagement.",
+      image: NGOLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/JyotiPatel04/NGO",
+      webapp: "https://rishango.org",
+    },
+    {
+      id: 1,
+      title: "Rural Informative & Social Harmony Academy (RISHA)",
+      description:
+      "A web application for the Rural Informative & Social Harmony Academy (RISHA), designed to provide educational resources and support for rural communities. The app features a responsive design, interactive elements, and a user-friendly interface to enhance accessibility and engagement.",
+      image: NGOLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/JyotiPatel04/NGO",
+      webapp: "https://rishango.org",
+    },
+    {
+      id: 2,
       title: "Password Generator",
       description:
       "A secure and user-friendly Password Generator application built using modern web technologies. The app allows users to generate strong, customizable passwords based on selected criteria such as length, uppercase letters, lowercase letters, numbers, and special characters. Designed with a clean and intuitive interface, it helps users create reliable passwords to enhance online security.",
@@ -147,9 +175,10 @@ export const SkillsInfo = [
       github: "https://github.com/JyotiPatel04/password-generator-react",
       webapp: "https://password-generator-react-wheat.vercel.app/",
     },
+    
 
     {
-       id: 1,
+       id: 3,
       title: "Simon Says Game",
       description:
       "A fun and interactive Simon Says memory game built using JavaScript. The game challenges users to remember and repeat an increasing sequence of colors, helping improve memory and focus. With smooth animations, sound feedback, and progressive difficulty levels, the game delivers an engaging and user-friendly experience.",
@@ -160,7 +189,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 2,
+      id: 4,
       title: "Weather App",
       description:
       "A responsive Weather Application built using HTML, CSS, and JavaScript. The app fetches real-time weather data from a public API and displays information such as temperature, humidity, wind speed, and weather conditions based on the searched city. Designed with a clean UI and smooth user experience.",
@@ -171,7 +200,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 3,
+      id: 5,
       title: "Expense Tracker",
       description:
         "A user-friendly Expense Tracker application built using HTML, CSS, and JavaScript. The app allows users to add, view, and manage daily expenses and income, automatically calculating the total balance. It uses dynamic DOM manipulation and local storage to persist data, helping users track their spending efficiently.",
@@ -182,7 +211,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 4,
+      id: 6,
       title: "Calculator",
       description:
         " A responsive Calculator application built using HTML, CSS, and JavaScript. The app performs basic arithmetic operations such as addition, subtraction, multiplication, and division with real-time input handling. Designed with a clean interface and smooth user interaction for accurate calculations.",

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+    className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-8"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-10">
         {/* Left Side */}
@@ -29,6 +29,9 @@ const About = () => {
                 'Web Developer',
                 'UI/UX Designer',
                 'Coder',
+                'FullStack Developer',
+                'Software Developer',
+                'Tech Enthusiast',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -41,8 +44,8 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-           I am a passionate frontend developer with hands-on experience in building responsive 
-           and interactive web applications using HTML, CSS, JavaScript, and React.
+           I am a passionate fullstack developer with hands-on experience in building responsive 
+           and interactive web applications using HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB.
 I          enjoy learning new technologies and am eager to start my professional journey 
            in the IT industry.
           </p>
