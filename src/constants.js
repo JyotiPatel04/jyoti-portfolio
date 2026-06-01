@@ -163,7 +163,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 0,
+      id: 1,
       title: "AI Resume Screening & Match Score System (MERN Stack)",
       description:
       "Developed an AI-powered Resume Screening System that analyzes resumes, matches skills with job requirements, and helps shortlist suitable candidates efficiently.",
@@ -175,7 +175,7 @@ export const SkillsInfo = [
     
     
     {
-      id: 0,
+      id: 2,
       title: "GYM-MERN-Project",
       description:
       "A web application for a gym management system designed to provide an efficient and user-friendly platform for managing gym members, workouts, and schedules. The app features a responsive design, interactive elements, and a user-friendly interface to enhance accessibility and engagement.",
@@ -185,7 +185,7 @@ export const SkillsInfo = [
       webapp: "https://gym-mern-project-fkip.vercel.app",
     },
     {
-      id: 1,
+      id: 3,
       title: "Rural Informative & Social Harmony Academy (RISHA)",
       description:
       "A web application for the Rural Informative & Social Harmony Academy (RISHA), designed to provide educational resources and support for rural communities. The app features a responsive design, interactive elements, and a user-friendly interface to enhance accessibility and engagement.",
@@ -195,7 +195,7 @@ export const SkillsInfo = [
       webapp: "https://rishango.org",
     },
     {
-      id: 2,
+      id: 4,
       title: "Password Generator",
       description:
       "A secure and user-friendly Password Generator application built using modern web technologies. The app allows users to generate strong, customizable passwords based on selected criteria such as length, uppercase letters, lowercase letters, numbers, and special characters. Designed with a clean and intuitive interface, it helps users create reliable passwords to enhance online security.",
@@ -207,7 +207,7 @@ export const SkillsInfo = [
     
 
     {
-       id: 3,
+       id: 5,
       title: "Simon Says Game",
       description:
       "A fun and interactive Simon Says memory game built using JavaScript. The game challenges users to remember and repeat an increasing sequence of colors, helping improve memory and focus. With smooth animations, sound feedback, and progressive difficulty levels, the game delivers an engaging and user-friendly experience.",
@@ -218,7 +218,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 4,
+      id: 6,
       title: "Weather App",
       description:
       "A responsive Weather Application built using HTML, CSS, and JavaScript. The app fetches real-time weather data from a public API and displays information such as temperature, humidity, wind speed, and weather conditions based on the searched city. Designed with a clean UI and smooth user experience.",
@@ -229,7 +229,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 5,
+      id: 7,
       title: "Expense Tracker",
       description:
         "A user-friendly Expense Tracker application built using HTML, CSS, and JavaScript. The app allows users to add, view, and manage daily expenses and income, automatically calculating the total balance. It uses dynamic DOM manipulation and local storage to persist data, helping users track their spending efficiently.",
@@ -240,7 +240,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 6,
+      id: 8,
       title: "Calculator",
       description:
         " A responsive Calculator application built using HTML, CSS, and JavaScript. The app performs basic arithmetic operations such as addition, subtraction, multiplication, and division with real-time input handling. Designed with a clean interface and smooth user interaction for accurate calculations.",
