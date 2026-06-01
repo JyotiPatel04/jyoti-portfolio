@@ -6,8 +6,6 @@ import reactjsLogo from './assets/tech_logo/reactjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springLogo from './assets/tech_logo/spring.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import nodeLogo from './assets/tech_logo/node.png';
@@ -58,12 +56,11 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      {name: 'Spring',logo: springLogo},
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'MySQL', logo: mysqlLogo },
+    
       { name: 'Node.js', logo: nodeLogo },
       { name: 'Express.js', logo: expressLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+       { name: 'MySQL', logo: mysqlLogo },
       
     ],
   },
