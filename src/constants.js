@@ -33,8 +33,9 @@ import upboardLogo from './assets/education_logo/upboard_logo.png';
 
 
 // Project Section Logo's
-import QuickLogo from './assets/work_logo/ai_resume.png';
+
 import QuickLogo from './assets/work_logo/quickcart.png';
+import AIResumeLogo from './assets/work_logo/ai_resume.png';
 import GYMLogo from './assets/work_logo/gym.png';
 import NGOLogo from './assets/work_logo/ngo.png';
 import passwordgeneratorLogo from './assets/work_logo/pass_gen.png';
