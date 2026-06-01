@@ -22,6 +22,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 
 
+
 // Experience Section Logo's
 import educationfriendLogo from './assets/company_logo/educationfriend_logo.png';
 
@@ -32,6 +33,8 @@ import upboardLogo from './assets/education_logo/upboard_logo.png';
 
 
 // Project Section Logo's
+import QuickLogo from './assets/work_logo/ai_resume.png';
+import QuickLogo from './assets/work_logo/quickcart.png';
 import GYMLogo from './assets/work_logo/gym.png';
 import NGOLogo from './assets/work_logo/ngo.png';
 import passwordgeneratorLogo from './assets/work_logo/pass_gen.png';
@@ -39,6 +42,7 @@ import simonsaysgameLogo from './assets/work_logo/ss_game.png';
 import weatherappLogo from './assets/work_logo/wea_app.png';
 import expensetrackerLogo from './assets/work_logo/exp_tra.png';
 import calculatorLogo from './assets/work_logo/cal.png';
+
 
 export const SkillsInfo = [
   {
@@ -95,7 +99,7 @@ export const SkillsInfo = [
       img: educationfriendLogo,
       role: "Web Developer/ Forntend Developer",
       company: "Education Friend",
-      date: "September 2025 - Present",
+      date: "September 2025 - March 2026",
       desc: "Worked on developing and maintaining responsive web pages using HTML, CSS, JavaScript, and React. Assisted in improving UI components, fixing layout issues, and ensuring cross-browser compatibility. Collaborated with team members to update content, enhance user experience, and support ongoing web development tasks.",
       skills: [
         "HTML",
@@ -147,7 +151,30 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-      {
+    {
+      id: 0,
+      title: "QuickCart — Full Stack MERN E-commerce Application",
+      description:
+      "Developed a full-stack MERN E-commerce application with features like product browsing, cart management, user authentication, and secure order handling.",
+      image: QuickLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Node.js", "Express.js", "MongoDB" ],
+      github: "https://github.com/JyotiPatel04/quickcart-ecommerce",
+      webapp: "https://quickcart-ecommerce-seven.vercel.app",
+    },
+    
+    {
+      id: 0,
+      title: "AI Resume Screening & Match Score System (MERN Stack)",
+      description:
+      "Developed an AI-powered Resume Screening System that analyzes resumes, matches skills with job requirements, and helps shortlist suitable candidates efficiently.",
+      image: AIResumeLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Node.js", "Express.js", "MongoDB" ],
+      github: "https://github.com/JyotiPatel04/AI_MERN_Resume",
+      webapp: "https://ai-mern-resume.vercel.app",
+    },  
+    
+    
+    {
       id: 0,
       title: "GYM-MERN-Project",
       description:
@@ -164,7 +191,7 @@ export const SkillsInfo = [
       "A web application for the Rural Informative & Social Harmony Academy (RISHA), designed to provide educational resources and support for rural communities. The app features a responsive design, interactive elements, and a user-friendly interface to enhance accessibility and engagement.",
       image: NGOLogo,
       tags: ["HTML", "CSS", "JavaScript",],
-      github: "https://github.com/JyotiPatel04/NGO",
+      github: "https://rishango.org",
       webapp: "https://rishango.org",
     },
     {
